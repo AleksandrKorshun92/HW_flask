@@ -1,0 +1,20 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    {{ super() }} - {{ title }}
+{% endblock %}
+
+{% block content1 %}
+    <div class="row">
+        <h1 class="col-12 col-md-6 display-2">ОБУВЬ</h1>
+</div>
+{% endblock %}
+
+{% block content2 %}
+    <img src="img/croissants-with-cooking-paper.jpg" width="150" height="150" alt="Тапки">
+    <p class="paragraph"><b>Тапки</b></p>
+
+    <img src="img/slice-tasty-tart-with-jam.jpg" width="150" height="150" alt="Туфли">
+    <p class="paragraph"><b>Туфли </b></p>
+
+{% endblock %}

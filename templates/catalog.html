@@ -1,0 +1,24 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    {{ super() }} - {{ title }}
+{% endblock %}
+
+{% block content1 %}
+    <div class="row">
+        <h1 class="col-12 col-md-6 display-2">КАТАЛОГ</h1>
+</div>
+{% endblock %}
+
+{% block content2 %}
+    <div class="row">
+        <h3>Что хотите купить: </h3>
+        <ul class="catalog">
+            <li><a href={{cloth}}>Одежду</a></li>
+            <li><a href={{hats}}>Шапки</a></li>
+            <li><a href={{shoes}}>Обувь</a></li>
+    </ul>
+
+    </div>
+
+{% endblock %}
